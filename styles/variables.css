@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P-Regular.woff';
+    --font-weight-card: 400;
+    --font-weight-card-title: 700;
+    --color: #000;
+    --background-color: #FFFFFF;
+    --background-stripes-color: #d3d3d3;
+    --background-gradient-color-light: #e7e7e7;
+    --background-gradient-color-dark: #1a1a1a;
+    --background-image:
+        repeating-linear-gradient(90deg, var(--background-stripes-color) 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(180deg, var(--background-stripes-color) 0 2px, transparent 2px 4px),
+        linear-gradient(var(--background-gradient-color-light), var(--background-gradient-color-dark));
+}
