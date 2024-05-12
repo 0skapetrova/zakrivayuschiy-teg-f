@@ -23,4 +23,54 @@
   color: var(--color);
   background-image: var(--background-image);
   background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color);
+  background-color: var(--background-color);
+  margin: 100px auto;
+  padding-block: 120px 25px;
+  inline-size: 100%;
+  max-inline-size: 696px;
+}
+
+.header__title {
+  font-family: var(--accent-font, sans-serif);
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 1;
+}
+
+.header__subtitle {
+  font-family: var(--accent-font, sans-serif);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.theme-menu {
+  margin-block-start: 25px;
+}
+
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.theme-menu__button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
 }
