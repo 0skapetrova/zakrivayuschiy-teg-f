@@ -40,7 +40,7 @@
   margin-block: 100px;
   padding-block-start: clamp(7.5rem, 6.3318rem + 4.9844vw, 8.5rem);
   padding-block-end: 25px;
-  inline-size: 100%;
+  inline-size: var(--content-width);
   max-inline-size: 696px;
 }
 
@@ -118,12 +118,18 @@
   color: currentColor;
 }
 
+.content__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   font-family: var(--main-font);
   display: grid;
   place-items: center;
   background-color: var(--background-color);
-  max-inline-size: 696px;
+  inline-size: var(--content-width);
 }
 
 .card__title {
@@ -240,4 +246,25 @@
 
 .floppy {
   inline-size: 28px;
+}
+
+.footer__dialog {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+.footer__dialog-text {
+  font-family: var(--accent-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.close-button {
+  border: 2px solid var(--color);
+  background-color: transparent;
+  inline-size: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
 }
