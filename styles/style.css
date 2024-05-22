@@ -153,8 +153,8 @@
   filter: saturate(300%);
 }
 
-.card__image_empathy {
-  filter: blur(4px) sepia(1);
+.card__image_study {
+  filter: blur(4px);
 }
 
 .card__image_team {
@@ -162,11 +162,11 @@
 }
 
 .card__image_adaptability {
-  filter: opacity(0.3) blur(2px) contrast(3);
+  filter: saturate(250%) invert(1) hue-rotate(90deg);
 }
 
 .card__image_despair {
-  filter: saturate(250%) invert(1) hue-rotate(90deg);
+  filter: sepia(1) brightness(80%);
 }
 
 .card__image_let-s-go {
