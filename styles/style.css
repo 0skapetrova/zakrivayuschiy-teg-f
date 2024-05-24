@@ -259,7 +259,7 @@
 }
 
 .card__like-button {
-  padding-inline: 35px;
+  inline-size: 130px;
 }
 
 .save__button {
