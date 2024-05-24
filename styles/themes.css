@@ -34,7 +34,7 @@
         --heart-main-color: #00CC14;
         --heart-fill-color: #000000;
         --heart-accent-color: #FF0000;
-        --text-shadow-color: rgb(255, 255, 255, 0.6);
+        --text-shadow-color: rgb(0, 0, 0, 0.5);
     }
 }
 
