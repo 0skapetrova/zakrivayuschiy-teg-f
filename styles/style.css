@@ -290,7 +290,6 @@
   place-content: center;
   max-inline-size: 357px;
   gap: 30px;
-  margin: 0 auto;
   padding: 30px;
   border: 2px solid var(--text-color, #000);
 }
